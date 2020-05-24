@@ -17,7 +17,7 @@ public class FlipkartHomePageTest extends TestBase {
 
 	@Test(priority = 1)
 	public void setup() {
-		initialization(prop.getProperty("flipkartUrl"));
+		driver.navigate().to(prop.getProperty("flipkartUrl"));
 		flipkartHomePage = new FlipkartHomePage();
 		flipkartSearchPage = new FlipkartSearchPage();
 	}

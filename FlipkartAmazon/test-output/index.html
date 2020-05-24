@@ -24,7 +24,7 @@
     <div class="top-banner-root">
       <span class="top-banner-title-font">Test results</span>
       <br/>
-      <span class="top-banner-font-1">1 suite, 1 failed test</span>
+      <span class="top-banner-font-1">1 suite</span>
     </div> <!-- top-banner-root -->
     <div class="navigator-root">
       <div class="navigator-suite-header">
@@ -38,7 +38,7 @@
         <div class="rounded-window">
           <div class="suite-header light-rounded-window-top">
             <a href="#" class="navigator-link" panel-name="suite-Automation">
-              <span class="suite-name border-failed">Automation</span>
+              <span class="suite-name border-passed">Automation</span>
             </a> <!-- navigator-link -->
           </div> <!-- suite-header light-rounded-window-top -->
           <div class="navigator-suite-content">
@@ -91,21 +91,7 @@
               <div class="suite-section-content">
                 <ul>
                   <li>
-                    <span class="method-stats">8 methods, 1 failed,   7 passed</span>
-                  </li>
-                  <li>
-                    <span class="method-list-title failed">Failed methods</span>
-                    <span class="show-or-hide-methods failed">
-                      <a href="#" panel-name="suite-Automation" class="hide-methods failed suite-Automation"> (hide)</a> <!-- hide-methods failed suite-Automation -->
-                      <a href="#" panel-name="suite-Automation" class="show-methods failed suite-Automation"> (show)</a> <!-- show-methods failed suite-Automation -->
-                    </span>
-                    <div class="method-list-content failed suite-Automation">
-                      <span>
-                        <img width="3%" src="failed.png"/>
-                        <a href="#" class="method navigator-link" panel-name="suite-Automation" title="com.qa.testCases.FlipkartSearchPageTest" hash-for-method="phonePrice">phonePrice</a> <!-- method navigator-link -->
-                      </span>
-                      <br/>
-                    </div> <!-- method-list-content failed suite-Automation -->
+                    <span class="method-stats">9 methods,   9 passed</span>
                   </li>
                   <li>
                     <span class="method-list-title passed">Passed methods</span>
@@ -121,7 +107,17 @@
                       <br/>
                       <span>
                         <img width="3%" src="passed.png"/>
-                        <a href="#" class="method navigator-link" panel-name="suite-Automation" title="com.qa.testCases.AmazonSearchPageTest" hash-for-method="amazonPrice">amazonPrice</a> <!-- method navigator-link -->
+                        <a href="#" class="method navigator-link" panel-name="suite-Automation" title="com.qa.testCases.FlipkartSearchPageTest" hash-for-method="comparePrice">comparePrice</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Automation" title="com.qa.testCases.AmazonSearchPageTest" hash-for-method="getPrice">getPrice</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Automation" title="com.qa.testCases.FlipkartSearchPageTest" hash-for-method="getPrice">getPrice</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                       <span>
@@ -161,51 +157,6 @@
     <div class="wrapper">
       <div class="main-panel-root">
         <div panel-name="suite-Automation" class="panel Automation">
-          <div class="suite-Automation-class-failed">
-            <div class="main-panel-header rounded-window-top">
-              <img src="failed.png"/>
-              <span class="class-name">com.qa.testCases.FlipkartSearchPageTest</span>
-            </div> <!-- main-panel-header rounded-window-top -->
-            <div class="main-panel-content rounded-window-bottom">
-              <div class="method">
-                <div class="method-content">
-                  <a name="phonePrice">
-                  </a> <!-- phonePrice -->
-                  <span class="method-name">phonePrice</span>
-                  <div class="stack-trace">org.openqa.selenium.TimeoutException: Expected condition failed: waiting for visibility of element located by By.xpath: //img[@class=&quot;_3VW0yj&quot;] (tried for 10 second(s) with 500 milliseconds interval)
-	at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:95)
-	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:272)
-	at com.qa.pages.FlipkartSearchPage.getPrice(FlipkartSearchPage.java:29)
-	at com.qa.testCases.FlipkartSearchPageTest.phonePrice(FlipkartSearchPageTest.java:35)
-Caused by: org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//img[@class=&quot;_3VW0yj&quot;]&quot;}
-  (Session info: chrome=81.0.4044.138)
-For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
-Build info: version: &apos;3.14.0&apos;, revision: &apos;aacccce0&apos;, time: &apos;2018-08-02T20:19:58.91Z&apos;
-System info: host: &apos;IITC-WS-DT06&apos;, ip: &apos;192.168.1.202&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_121&apos;
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 81.0.4044.138, chrome: {chromedriverVersion: 81.0.4044.69 (6813546031a4b..., userDataDir: C:\Users\KAPIL~1.JHA\AppDat...}, goog:chromeOptions: {debuggerAddress: localhost:54134}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
-Session ID: d5ead02261b3b3eb3971a7c1ce48db87
-*** Element info: {Using=xpath, value=//img[@class=&quot;_3VW0yj&quot;]}
-	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:185)
-	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:120)
-	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
-	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:164)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:586)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:356)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:458)
-	at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:348)
-	at org.openqa.selenium.support.ui.ExpectedConditions$7.apply(ExpectedConditions.java:205)
-	at org.openqa.selenium.support.ui.ExpectedConditions$7.apply(ExpectedConditions.java:201)
-	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:249)
-	... 27 more
-... Removed 29 stack frames
-</div> <!-- stack-trace -->
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-            </div> <!-- main-panel-content rounded-window-bottom -->
-          </div> <!-- suite-Automation-class-failed -->
           <div class="suite-Automation-class-passed">
             <div class="main-panel-header rounded-window-top">
               <img src="passed.png"/>
@@ -221,9 +172,9 @@ Session ID: d5ead02261b3b3eb3971a7c1ce48db87
               </div> <!-- method -->
               <div class="method">
                 <div class="method-content">
-                  <a name="amazonPrice">
-                  </a> <!-- amazonPrice -->
-                  <span class="method-name">amazonPrice</span>
+                  <a name="getPrice">
+                  </a> <!-- getPrice -->
+                  <span class="method-name">getPrice</span>
                 </div> <!-- method-content -->
               </div> <!-- method -->
             </div> <!-- main-panel-content rounded-window-bottom -->
@@ -263,6 +214,20 @@ Session ID: d5ead02261b3b3eb3971a7c1ce48db87
               <span class="class-name">com.qa.testCases.FlipkartSearchPageTest</span>
             </div> <!-- main-panel-header rounded-window-top -->
             <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="comparePrice">
+                  </a> <!-- comparePrice -->
+                  <span class="method-name">comparePrice</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="getPrice">
+                  </a> <!-- getPrice -->
+                  <span class="method-name">getPrice</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
               <div class="method">
                 <div class="method-content">
                   <a name="phoneSearchTest">
@@ -363,44 +328,48 @@ data.addColumn('number', 'Number');
 data.addColumn('string', 'Method');
 data.addColumn('string', 'Class');
 data.addColumn('number', 'Time (ms)');
-data.addRows(8);
+data.addRows(9);
 data.setCell(0, 0, 0)
 data.setCell(0, 1, 'setup')
 data.setCell(0, 2, 'com.qa.testCases.FlipkartHomePageTest')
-data.setCell(0, 3, 14370);
+data.setCell(0, 3, 5935);
 data.setCell(1, 0, 1)
-data.setCell(1, 1, 'phonePrice')
-data.setCell(1, 2, 'com.qa.testCases.FlipkartSearchPageTest')
-data.setCell(1, 3, 10162);
+data.setCell(1, 1, 'mobileSearchItemTest')
+data.setCell(1, 2, 'com.qa.testCases.AmazonHomePageTest')
+data.setCell(1, 3, 2437);
 data.setCell(2, 0, 2)
 data.setCell(2, 1, 'searchClickTest')
 data.setCell(2, 2, 'com.qa.testCases.FlipkartHomePageTest')
-data.setCell(2, 3, 2080);
+data.setCell(2, 3, 2083);
 data.setCell(3, 0, 3)
 data.setCell(3, 1, 'amazonPhoneSearch')
 data.setCell(3, 2, 'com.qa.testCases.AmazonSearchPageTest')
-data.setCell(3, 3, 2054);
+data.setCell(3, 3, 2040);
 data.setCell(4, 0, 4)
 data.setCell(4, 1, 'phoneSearchTest')
 data.setCell(4, 2, 'com.qa.testCases.FlipkartSearchPageTest')
-data.setCell(4, 3, 2034);
+data.setCell(4, 3, 2038);
 data.setCell(5, 0, 5)
 data.setCell(5, 1, 'mobileSearchItemTest')
-data.setCell(5, 2, 'com.qa.testCases.AmazonHomePageTest')
-data.setCell(5, 3, 1764);
+data.setCell(5, 2, 'com.qa.testCases.FlipkartHomePageTest')
+data.setCell(5, 3, 273);
 data.setCell(6, 0, 6)
-data.setCell(6, 1, 'mobileSearchItemTest')
-data.setCell(6, 2, 'com.qa.testCases.FlipkartHomePageTest')
-data.setCell(6, 3, 244);
+data.setCell(6, 1, 'getPrice')
+data.setCell(6, 2, 'com.qa.testCases.AmazonSearchPageTest')
+data.setCell(6, 3, 31);
 data.setCell(7, 0, 7)
-data.setCell(7, 1, 'amazonPrice')
-data.setCell(7, 2, 'com.qa.testCases.AmazonSearchPageTest')
-data.setCell(7, 3, 30);
+data.setCell(7, 1, 'getPrice')
+data.setCell(7, 2, 'com.qa.testCases.FlipkartSearchPageTest')
+data.setCell(7, 3, 29);
+data.setCell(8, 0, 8)
+data.setCell(8, 1, 'comparePrice')
+data.setCell(8, 2, 'com.qa.testCases.FlipkartSearchPageTest')
+data.setCell(8, 3, 1);
 window.suiteTableData['Automation']= { tableData: data, tableDiv: 'times-div-Automation'}
 return data;
 }
               </script>
-              <span class="suite-total-time">Total running time: 32 seconds</span>
+              <span class="suite-total-time">Total running time: 14 seconds</span>
               <div id="times-div-Automation">
               </div> <!-- times-div-Automation -->
             </div> <!-- times-div -->
@@ -436,64 +405,66 @@ return data;
               <div class="chronological-class-name">com.qa.testCases.AmazonSearchPageTest</div> <!-- chronological-class-name -->
               <div class="configuration-suite before">
                 <span class="method-name">setup</span>
-                <span class="method-start">9624 ms</span>
+                <span class="method-start">11292 ms</span>
               </div> <!-- configuration-suite before -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">com.qa.testCases.FlipkartSearchPageTest</div> <!-- chronological-class-name -->
               <div class="configuration-suite before">
                 <span class="method-name">setup</span>
-                <span class="method-start">9625 ms</span>
+                <span class="method-start">11293 ms</span>
               </div> <!-- configuration-suite before -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">com.qa.testCases.AmazonHomePageTest</div> <!-- chronological-class-name -->
               <div class="test-method">
                 <span class="method-name">mobileSearchItemTest</span>
-                <span class="method-start">9643 ms</span>
+                <span class="method-start">11306 ms</span>
               </div> <!-- test-method -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">com.qa.testCases.AmazonSearchPageTest</div> <!-- chronological-class-name -->
               <div class="test-method">
                 <span class="method-name">amazonPhoneSearch</span>
-                <span class="method-start">11434 ms</span>
+                <span class="method-start">13767 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
-                <span class="method-name">amazonPrice</span>
-                <span class="method-start">13489 ms</span>
+                <span class="method-name">getPrice</span>
+                <span class="method-start">15807 ms</span>
               </div> <!-- test-method -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">com.qa.testCases.FlipkartHomePageTest</div> <!-- chronological-class-name -->
               <div class="test-method">
                 <span class="method-name">setup</span>
-                <span class="method-start">13524 ms</span>
+                <span class="method-start">15844 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
                 <span class="method-name">mobileSearchItemTest</span>
-                <span class="method-start">27895 ms</span>
+                <span class="method-start">21781 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
                 <span class="method-name">searchClickTest</span>
-                <span class="method-start">28140 ms</span>
+                <span class="method-start">22055 ms</span>
               </div> <!-- test-method -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">com.qa.testCases.FlipkartSearchPageTest</div> <!-- chronological-class-name -->
               <div class="test-method">
                 <span class="method-name">phoneSearchTest</span>
-                <span class="method-start">30232 ms</span>
+                <span class="method-start">24145 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
-                <img src="failed.png">
-                </img>
-                <span class="method-name">phonePrice</span>
-                <span class="method-start">32267 ms</span>
+                <span class="method-name">getPrice</span>
+                <span class="method-start">26184 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">comparePrice</span>
+                <span class="method-start">26213 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-suite after">
                 <span class="method-name">closeBrowser</span>
-                <span class="method-start">42440 ms</span>
+                <span class="method-start">26219 ms</span>
               </div> <!-- configuration-suite after -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->

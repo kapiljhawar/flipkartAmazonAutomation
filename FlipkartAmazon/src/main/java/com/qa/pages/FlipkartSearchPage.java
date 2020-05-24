@@ -4,14 +4,12 @@ import org.openqa.selenium.By;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
-import org.openqa.selenium.support.ui.ExpectedConditions;
-import org.openqa.selenium.support.ui.WebDriverWait;
 
 import com.qa.base.TestBase;
 
 public class FlipkartSearchPage extends TestBase {
 
-	@FindBy(xpath = "//div[@class=\"_2h52bo\"]/div/div[2]/div/div[2]")
+	@FindBy(xpath = "//div[contains(text(),\"Apple iPhone XR (White, 64 GB)\")]/../../div[2]/div/div/div")
 	WebElement price;
 
 	public FlipkartSearchPage() {
@@ -20,14 +18,11 @@ public class FlipkartSearchPage extends TestBase {
 
 	public String verifyCorrectSearch() throws InterruptedException {
 		Thread.sleep(2000);
-		return driver.findElement(By.xpath("//div[contains(text(), \"Apple iPhone XR (White, 64 GB)\")]")).getText();
+		return driver.findElement(By.xpath("//div[contains(text(), \"Apple iPhone XR (Blue, 64 GB)\")]")).getText();
 	}
 
 	public String getPrice() throws InterruptedException {
-		driver.findElement(By.xpath("//div[contains(text(), \"Apple iPhone XR (White, 64 GB)\")]")).click();
-		WebDriverWait wait=new WebDriverWait(driver, 10);
-		wait.until(ExpectedConditions.visibilityOfElementLocated(By.xpath("//img[@class=\"_3VW0yj\"]"))).click();
-		String fp = price.getText();
+		String fp = driver.findElement(By.xpath("//div[contains(text(),\"Apple iPhone XR (Blue, 64 GB)\")]/../../div[2]/div/div/div")).getText();
 		return fp;
 	}
 }

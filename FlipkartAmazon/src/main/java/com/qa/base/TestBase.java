@@ -20,8 +20,6 @@ public class TestBase {
 	public static WebDriverWait wait;
 	public static Properties prop;
 	public static String configPropertiesPath = "Lib\\config.properties";
-	public String amazonPrice;
-	public String flipkartPrice;
 
 	// Reading file from text file
 	public TestBase() {
@@ -59,7 +57,6 @@ public class TestBase {
 		}
 
 		driver.manage().window().maximize();
-		driver.manage().deleteAllCookies();
 		driver.manage().timeouts().pageLoadTimeout(TestUtil.Page_Load_Timeouts, TimeUnit.SECONDS);
 		driver.manage().timeouts().implicitlyWait(TestUtil.Implicit_Wait, TimeUnit.SECONDS);
 		driver.get(url);

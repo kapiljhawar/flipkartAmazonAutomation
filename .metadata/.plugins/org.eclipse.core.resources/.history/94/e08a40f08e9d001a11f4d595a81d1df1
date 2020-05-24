@@ -1,0 +1,61 @@
+package com.qa.testCases;
+
+import org.openqa.selenium.WebDriver;
+import org.testng.Assert;
+import org.testng.annotations.AfterSuite;
+import org.testng.annotations.BeforeSuite;
+import org.testng.annotations.Test;
+
+import com.qa.base.TestBase;
+import com.qa.pages.FlipkartSearchPage;
+import com.qa.util.TestUtil;
+
+public class FlipkartSearchPageTest extends TestBase {
+
+	FlipkartSearchPage flipkartSearchPage;
+	TestBase tb;
+	TestUtil testUtil;
+	WebDriver switchTab;
+
+	public FlipkartSearchPageTest() {
+		super();
+	}
+
+	@BeforeSuite
+	public void setup() {
+		flipkartSearchPage = new FlipkartSearchPage();
+		tb = new TestBase();
+		testUtil = new TestUtil();
+	}
+
+	@Test(priority = 1)
+	public void phoneSearchTest() throws InterruptedException {
+		String flipkartPhoneName = flipkartSearchPage.verifyCorrectSearch();
+		Assert.assertEquals("Apple iPhone XR (White, 64 GB)", flipkartPhoneName);
+	}
+
+	@Test(priority = 2)
+	public void phonePrice() throws InterruptedException {
+		String flipkartPrice1 = flipkartSearchPage.getPrice();
+		flipkartPrice = flipkartPrice1.replace("₹", "");
+		flipkartPrice1 = flipkartPrice1.replace(" ", "");
+		System.out.println("Flipkart Price: " + flipkartPrice);
+	}
+	
+/*	@Test(priority = 3)
+	public void comparePrice() {
+		System.out.println(flipkartPrice);
+		System.out.println(amazonPrice);
+		if(flipkartPrice.amazonPrice) {
+			System.out.println("Amazon Price and Flipkart Prcie are equal which is: "+amazonPrice);
+		}
+		elseif(flipkartPrice lt amazonPrice){
+			
+		}
+	}*/
+
+	@AfterSuite
+	public void closeBrowser() {
+		tb.quitBrowser();
+	}
+}

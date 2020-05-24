@@ -9,7 +9,7 @@ import com.qa.base.TestBase;
 
 public class AmazonSearchPage extends TestBase {
 
-	@FindBy(xpath = "(//span[contains(text(),\"Apple iPhone XR (64GB) - White\")])[2]/../../../../../../../div[2]/div/div/div/div/div/a/span/span[2]/span[2]")
+	@FindBy(xpath = "//span[contains(text(),\"Apple iPhone XR (64GB) - Blue\")]/../../../../../../../div[2]/div/div/div/div/div/a/span/span/span[2]")
 	WebElement price;
 
 	public AmazonSearchPage() {
@@ -18,7 +18,7 @@ public class AmazonSearchPage extends TestBase {
 
 	public String verifyCorrectSearch(String searchName) throws InterruptedException {
 		Thread.sleep(2000);
-		return driver.findElement(By.xpath("(//span[contains(text(),\"Apple iPhone XR (64GB) - White\")])[2]")).getText();
+		return driver.findElement(By.xpath("(//span[contains(text(),\"Apple iPhone XR (64GB) - Blue\")])[1]")).getText();
 	}
 
 	public String getPrice() {

@@ -6,7 +6,6 @@
       <class name="com.qa.testCases.AmazonSearchPageTest">
         <methods>
           <include name="amazonPhoneSearch"/>
-          <include name="closeBrowser"/>
           <include name="amazonPrice"/>
           <include name="setup"/>
         </methods>

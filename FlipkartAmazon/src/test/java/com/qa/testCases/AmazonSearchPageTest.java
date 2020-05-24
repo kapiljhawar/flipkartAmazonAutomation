@@ -12,6 +12,7 @@ public class AmazonSearchPageTest extends TestBase {
 	AmazonSearchPage amazonSearchPage;
 	FlipkartHomePage flipkartHomePage;
 	TestBase tb;
+	int price;
 
 	public AmazonSearchPageTest() {
 		super();
@@ -26,12 +27,19 @@ public class AmazonSearchPageTest extends TestBase {
 	@Test(priority = 1)
 	public void amazonPhoneSearch() throws InterruptedException {
 		String phone = amazonSearchPage.verifyCorrectSearch(prop.getProperty("mobileSearchItem"));
-		Assert.assertEquals("Apple iPhone XR (64GB) - White", phone);
+		Assert.assertEquals("Apple iPhone XR (64GB) - Blue", phone);
 	}
 
 	@Test(priority = 2)
-	public void amazonPrice() {
-		amazonPrice = amazonSearchPage.getPrice();
-		System.out.println("Amazon Price: "+amazonPrice);
+	public void getPrice() {
+		String aPrice = amazonSearchPage.getPrice();
+		aPrice = aPrice.replace("₹", "");
+		aPrice = aPrice.replace(",", "");
+		price = Integer.parseInt(aPrice);
+		System.out.println("Amazon Price: " + price);
+//		driver.close();
+	}
+	public int pricevalue() {
+		return price;
 	}
 }

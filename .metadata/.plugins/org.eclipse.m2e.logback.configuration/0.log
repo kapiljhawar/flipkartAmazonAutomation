@@ -999,3 +999,690 @@ Caused by: org.eclipse.aether.transfer.ArtifactNotFoundException: Could not find
 2020-05-23 18:06:59,742 [Worker-58] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
 2020-05-23 18:06:59,743 [Worker-58] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
 2020-05-23 18:06:59,743 [Worker-58] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\kapil.jhawar\Documents\OnlineAssignment\FlipkartAmazon\src\test\resources
+2020-05-24 10:27:55,475 [Worker-1] INFO  c.g.t.t.d.PublishedGradleVersions - Gradle version information cache is up-to-date. Trying to read.
+2020-05-24 10:28:17,063 [Worker-13] WARN  o.e.r.models.ModelRepository - Failed to download org.eclipse.recommenders:index::zip:0.0.0
+org.eclipse.aether.resolution.ArtifactResolutionException: Could not find artifact org.eclipse.recommenders:index:zip:0.0.0-SNAPSHOT in models (http://download.eclipse.org/recommenders/models/oxygen/)
+	at org.eclipse.aether.internal.impl.DefaultArtifactResolver.resolve(DefaultArtifactResolver.java:453) ~[na:na]
+	at org.eclipse.aether.internal.impl.DefaultArtifactResolver.resolveArtifacts(DefaultArtifactResolver.java:255) ~[na:na]
+	at org.eclipse.aether.internal.impl.DefaultArtifactResolver.resolveArtifact(DefaultArtifactResolver.java:232) ~[na:na]
+	at org.eclipse.aether.internal.impl.DefaultRepositorySystem.resolveArtifact(DefaultRepositorySystem.java:303) ~[na:na]
+	at org.eclipse.recommenders.models.ModelRepository.resolveInternal(ModelRepository.java:193) [org.eclipse.recommenders.models_2.5.2.v20180401-1226.jar:na]
+	at org.eclipse.recommenders.models.ModelRepository.resolve(ModelRepository.java:172) [org.eclipse.recommenders.models_2.5.2.v20180401-1226.jar:na]
+	at org.eclipse.recommenders.internal.models.rcp.EclipseModelRepository.resolve(EclipseModelRepository.java:168) [org.eclipse.recommenders.models.rcp_2.5.2.v20180401-1226.jar:na]
+	at org.eclipse.recommenders.internal.models.rcp.DownloadModelArchiveJob.run(DownloadModelArchiveJob.java:76) [org.eclipse.recommenders.models.rcp_2.5.2.v20180401-1226.jar:na]
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:56) [org.eclipse.core.jobs_3.9.3.v20180115-1757.jar:na]
+Caused by: org.eclipse.aether.transfer.ArtifactNotFoundException: Could not find artifact org.eclipse.recommenders:index:zip:0.0.0-SNAPSHOT in models (http://download.eclipse.org/recommenders/models/oxygen/)
+	at org.eclipse.aether.connector.basic.ArtifactTransportListener.transferFailed(ArtifactTransportListener.java:48) ~[org.apache.maven.resolver.connector.basic_1.0.3.v20170405-0725.jar:1.0.3]
+	at org.eclipse.aether.connector.basic.BasicRepositoryConnector$TaskRunner.run(BasicRepositoryConnector.java:364) ~[org.apache.maven.resolver.connector.basic_1.0.3.v20170405-0725.jar:1.0.3]
+	at org.eclipse.aether.util.concurrency.RunnableErrorForwarder$1.run(RunnableErrorForwarder.java:76) ~[na:na]
+	at org.eclipse.aether.connector.basic.BasicRepositoryConnector$DirectExecutor.execute(BasicRepositoryConnector.java:590) ~[org.apache.maven.resolver.connector.basic_1.0.3.v20170405-0725.jar:1.0.3]
+	at org.eclipse.aether.connector.basic.BasicRepositoryConnector.get(BasicRepositoryConnector.java:258) ~[org.apache.maven.resolver.connector.basic_1.0.3.v20170405-0725.jar:1.0.3]
+	at org.eclipse.aether.internal.impl.DefaultArtifactResolver.performDownloads(DefaultArtifactResolver.java:529) ~[na:na]
+	at org.eclipse.aether.internal.impl.DefaultArtifactResolver.resolve(DefaultArtifactResolver.java:430) ~[na:na]
+	... 8 common frames omitted
+2020-05-24 10:28:50,937 [Worker-13] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-05-24 10:28:50,941 [Worker-13] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2020-05-24 10:28:50,948 [Worker-13] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-05-24 10:28:50,948 [Worker-13] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\kapil.jhawar\Documents\OnlineAssignment\FlipkartAmazon\src\test\resources
+2020-05-24 10:29:11,964 [Worker-7] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-05-24 10:29:11,968 [Worker-7] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2020-05-24 10:29:11,972 [Worker-7] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-05-24 10:29:11,973 [Worker-7] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\kapil.jhawar\Documents\OnlineAssignment\FlipkartAmazon\src\test\resources
+2020-05-24 10:29:34,203 [Worker-9] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-05-24 10:29:34,203 [Worker-9] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2020-05-24 10:29:34,206 [Worker-9] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-05-24 10:29:34,206 [Worker-9] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\kapil.jhawar\Documents\OnlineAssignment\FlipkartAmazon\src\test\resources
+2020-05-24 10:32:51,696 [Worker-3] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-05-24 10:32:51,697 [Worker-3] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-05-24 10:32:51,698 [Worker-3] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-05-24 10:32:51,698 [Worker-3] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\kapil.jhawar\Documents\OnlineAssignment\FlipkartAmazon\src\test\resources
+2020-05-24 10:35:34,713 [Worker-1] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-05-24 10:35:34,723 [Worker-1] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2020-05-24 10:35:34,724 [Worker-1] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-05-24 10:35:34,725 [Worker-1] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\kapil.jhawar\Documents\OnlineAssignment\FlipkartAmazon\src\test\resources
+2020-05-24 10:35:42,268 [Worker-7] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-05-24 10:35:42,268 [Worker-7] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2020-05-24 10:35:42,269 [Worker-7] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-05-24 10:35:42,270 [Worker-7] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\kapil.jhawar\Documents\OnlineAssignment\FlipkartAmazon\src\test\resources
+2020-05-24 10:36:16,765 [Worker-3] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-05-24 10:36:16,766 [Worker-3] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2020-05-24 10:36:16,774 [Worker-3] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-05-24 10:36:16,774 [Worker-3] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\kapil.jhawar\Documents\OnlineAssignment\FlipkartAmazon\src\test\resources
+2020-05-24 10:36:20,268 [Worker-10] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-05-24 10:36:20,268 [Worker-10] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-05-24 10:36:20,270 [Worker-10] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-05-24 10:36:20,270 [Worker-10] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\kapil.jhawar\Documents\OnlineAssignment\FlipkartAmazon\src\test\resources
+2020-05-24 10:40:39,059 [Worker-17] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-05-24 10:40:39,060 [Worker-17] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2020-05-24 10:40:39,061 [Worker-17] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-05-24 10:40:39,061 [Worker-17] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\kapil.jhawar\Documents\OnlineAssignment\FlipkartAmazon\src\test\resources
+2020-05-24 10:56:46,192 [Worker-25] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-05-24 10:56:46,193 [Worker-25] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2020-05-24 10:56:46,194 [Worker-25] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-05-24 10:56:46,194 [Worker-25] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\kapil.jhawar\Documents\OnlineAssignment\FlipkartAmazon\src\test\resources
+2020-05-24 10:58:35,724 [Worker-29] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-05-24 10:58:35,724 [Worker-29] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2020-05-24 10:58:35,726 [Worker-29] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-05-24 10:58:35,726 [Worker-29] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\kapil.jhawar\Documents\OnlineAssignment\FlipkartAmazon\src\test\resources
+2020-05-24 11:01:42,299 [Worker-26] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-05-24 11:01:42,300 [Worker-26] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2020-05-24 11:01:42,302 [Worker-26] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-05-24 11:01:42,302 [Worker-26] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\kapil.jhawar\Documents\OnlineAssignment\FlipkartAmazon\src\test\resources
+2020-05-24 11:06:08,052 [Worker-23] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-05-24 11:06:08,052 [Worker-23] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2020-05-24 11:06:08,053 [Worker-23] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-05-24 11:06:08,054 [Worker-23] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\kapil.jhawar\Documents\OnlineAssignment\FlipkartAmazon\src\test\resources
+2020-05-24 11:07:29,124 [Worker-23] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-05-24 11:07:29,125 [Worker-23] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2020-05-24 11:07:29,126 [Worker-23] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-05-24 11:07:29,126 [Worker-23] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\kapil.jhawar\Documents\OnlineAssignment\FlipkartAmazon\src\test\resources
+2020-05-24 11:15:18,372 [Worker-34] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-05-24 11:15:18,373 [Worker-34] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2020-05-24 11:15:18,374 [Worker-34] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-05-24 11:15:18,374 [Worker-34] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\kapil.jhawar\Documents\OnlineAssignment\FlipkartAmazon\src\test\resources
+2020-05-24 11:19:13,660 [Worker-35] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-05-24 11:19:13,661 [Worker-35] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2020-05-24 11:19:13,663 [Worker-35] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-05-24 11:19:13,664 [Worker-35] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\kapil.jhawar\Documents\OnlineAssignment\FlipkartAmazon\src\test\resources
+2020-05-24 11:19:19,561 [Worker-36] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-05-24 11:19:19,561 [Worker-36] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2020-05-24 11:19:19,562 [Worker-36] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-05-24 11:19:19,563 [Worker-36] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\kapil.jhawar\Documents\OnlineAssignment\FlipkartAmazon\src\test\resources
+2020-05-24 11:20:42,991 [Worker-41] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-05-24 11:20:42,992 [Worker-41] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2020-05-24 11:20:42,993 [Worker-41] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-05-24 11:20:42,994 [Worker-41] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\kapil.jhawar\Documents\OnlineAssignment\FlipkartAmazon\src\test\resources
+2020-05-24 11:23:46,745 [Worker-39] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-05-24 11:23:46,746 [Worker-39] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2020-05-24 11:23:46,747 [Worker-39] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-05-24 11:23:46,747 [Worker-39] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\kapil.jhawar\Documents\OnlineAssignment\FlipkartAmazon\src\test\resources
+2020-05-24 11:24:48,672 [Worker-36] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-05-24 11:24:48,673 [Worker-36] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2020-05-24 11:24:48,674 [Worker-36] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-05-24 11:24:48,674 [Worker-36] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\kapil.jhawar\Documents\OnlineAssignment\FlipkartAmazon\src\test\resources
+2020-05-24 11:26:00,407 [Worker-35] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-05-24 11:26:00,408 [Worker-35] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2020-05-24 11:26:00,409 [Worker-35] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-05-24 11:26:00,409 [Worker-35] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\kapil.jhawar\Documents\OnlineAssignment\FlipkartAmazon\src\test\resources
+2020-05-24 11:26:03,668 [Worker-41] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-05-24 11:26:03,668 [Worker-41] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2020-05-24 11:26:03,669 [Worker-41] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-05-24 11:26:03,670 [Worker-41] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\kapil.jhawar\Documents\OnlineAssignment\FlipkartAmazon\src\test\resources
+2020-05-24 11:46:30,686 [Worker-47] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-05-24 11:46:30,686 [Worker-47] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2020-05-24 11:46:30,687 [Worker-47] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-05-24 11:46:30,688 [Worker-47] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\kapil.jhawar\Documents\OnlineAssignment\FlipkartAmazon\src\test\resources
+2020-05-24 11:46:42,578 [Worker-46] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-05-24 11:46:42,579 [Worker-46] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2020-05-24 11:46:42,580 [Worker-46] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-05-24 11:46:42,580 [Worker-46] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\kapil.jhawar\Documents\OnlineAssignment\FlipkartAmazon\src\test\resources
+2020-05-24 11:52:17,883 [Worker-56] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-05-24 11:52:17,884 [Worker-56] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2020-05-24 11:52:17,885 [Worker-56] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-05-24 11:52:17,885 [Worker-56] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\kapil.jhawar\Documents\OnlineAssignment\FlipkartAmazon\src\test\resources
+2020-05-24 11:59:54,977 [Worker-50] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-05-24 11:59:54,978 [Worker-50] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2020-05-24 11:59:54,979 [Worker-50] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-05-24 11:59:54,979 [Worker-50] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\kapil.jhawar\Documents\OnlineAssignment\FlipkartAmazon\src\test\resources
+2020-05-24 11:59:58,163 [Worker-50] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-05-24 11:59:58,164 [Worker-50] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2020-05-24 11:59:58,165 [Worker-50] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-05-24 11:59:58,165 [Worker-50] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\kapil.jhawar\Documents\OnlineAssignment\FlipkartAmazon\src\test\resources
+2020-05-24 12:04:38,948 [Worker-59] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-05-24 12:04:38,948 [Worker-59] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-05-24 12:04:38,949 [Worker-59] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-05-24 12:04:38,949 [Worker-59] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\kapil.jhawar\Documents\OnlineAssignment\FlipkartAmazon\src\test\resources
+2020-05-24 12:04:46,855 [Worker-56] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-05-24 12:04:46,856 [Worker-56] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2020-05-24 12:04:46,856 [Worker-56] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-05-24 12:04:46,857 [Worker-56] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\kapil.jhawar\Documents\OnlineAssignment\FlipkartAmazon\src\test\resources
+2020-05-24 12:05:29,873 [Worker-58] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-05-24 12:05:29,874 [Worker-58] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2020-05-24 12:05:29,875 [Worker-58] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-05-24 12:05:29,876 [Worker-58] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\kapil.jhawar\Documents\OnlineAssignment\FlipkartAmazon\src\test\resources
+2020-05-24 12:05:37,611 [Worker-56] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-05-24 12:05:37,611 [Worker-56] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2020-05-24 12:05:37,612 [Worker-56] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-05-24 12:05:37,612 [Worker-56] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\kapil.jhawar\Documents\OnlineAssignment\FlipkartAmazon\src\test\resources
+2020-05-24 12:06:06,825 [Worker-53] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-05-24 12:06:06,826 [Worker-53] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-05-24 12:06:06,827 [Worker-53] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-05-24 12:06:06,827 [Worker-53] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\kapil.jhawar\Documents\OnlineAssignment\FlipkartAmazon\src\test\resources
+2020-05-24 12:08:31,474 [Worker-58] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-05-24 12:08:31,474 [Worker-58] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2020-05-24 12:08:31,475 [Worker-58] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-05-24 12:08:31,475 [Worker-58] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\kapil.jhawar\Documents\OnlineAssignment\FlipkartAmazon\src\test\resources
+2020-05-24 12:09:48,748 [Worker-58] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-05-24 12:09:48,748 [Worker-58] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2020-05-24 12:09:48,749 [Worker-58] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-05-24 12:09:48,749 [Worker-58] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\kapil.jhawar\Documents\OnlineAssignment\FlipkartAmazon\src\test\resources
+2020-05-24 12:10:06,643 [Worker-59] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-05-24 12:10:06,644 [Worker-59] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2020-05-24 12:10:06,645 [Worker-59] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-05-24 12:10:06,645 [Worker-59] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\kapil.jhawar\Documents\OnlineAssignment\FlipkartAmazon\src\test\resources
+2020-05-24 12:10:16,403 [Worker-58] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-05-24 12:10:16,404 [Worker-58] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2020-05-24 12:10:16,405 [Worker-58] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-05-24 12:10:16,405 [Worker-58] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\kapil.jhawar\Documents\OnlineAssignment\FlipkartAmazon\src\test\resources
+2020-05-24 12:10:33,080 [Worker-56] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-05-24 12:10:33,080 [Worker-56] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-05-24 12:10:33,081 [Worker-56] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-05-24 12:10:33,082 [Worker-56] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\kapil.jhawar\Documents\OnlineAssignment\FlipkartAmazon\src\test\resources
+2020-05-24 12:11:01,525 [Worker-59] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-05-24 12:11:01,525 [Worker-59] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-05-24 12:11:01,527 [Worker-59] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-05-24 12:11:01,528 [Worker-59] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\kapil.jhawar\Documents\OnlineAssignment\FlipkartAmazon\src\test\resources
+2020-05-24 12:11:54,418 [Worker-53] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-05-24 12:11:54,419 [Worker-53] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2020-05-24 12:11:54,420 [Worker-53] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-05-24 12:11:54,420 [Worker-53] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\kapil.jhawar\Documents\OnlineAssignment\FlipkartAmazon\src\test\resources
+2020-05-24 12:11:59,383 [Worker-58] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-05-24 12:11:59,384 [Worker-58] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2020-05-24 12:11:59,385 [Worker-58] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-05-24 12:11:59,385 [Worker-58] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\kapil.jhawar\Documents\OnlineAssignment\FlipkartAmazon\src\test\resources
+2020-05-24 12:12:01,172 [Worker-60] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-05-24 12:12:01,173 [Worker-60] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2020-05-24 12:12:01,174 [Worker-60] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-05-24 12:12:01,174 [Worker-60] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\kapil.jhawar\Documents\OnlineAssignment\FlipkartAmazon\src\test\resources
+2020-05-24 12:18:00,558 [Worker-62] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-05-24 12:18:00,559 [Worker-62] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2020-05-24 12:18:00,559 [Worker-62] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-05-24 12:18:00,560 [Worker-62] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\kapil.jhawar\Documents\OnlineAssignment\FlipkartAmazon\src\test\resources
+2020-05-24 12:21:24,858 [Worker-61] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-05-24 12:21:24,859 [Worker-61] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-05-24 12:21:24,859 [Worker-61] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-05-24 12:21:24,860 [Worker-61] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\kapil.jhawar\Documents\OnlineAssignment\FlipkartAmazon\src\test\resources
+2020-05-24 12:25:26,955 [Worker-58] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-05-24 12:25:26,956 [Worker-58] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2020-05-24 12:25:26,957 [Worker-58] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-05-24 12:25:26,957 [Worker-58] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\kapil.jhawar\Documents\OnlineAssignment\FlipkartAmazon\src\test\resources
+2020-05-24 12:25:57,911 [Worker-63] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-05-24 12:25:57,912 [Worker-63] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-05-24 12:25:57,912 [Worker-63] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-05-24 12:25:57,913 [Worker-63] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\kapil.jhawar\Documents\OnlineAssignment\FlipkartAmazon\src\test\resources
+2020-05-24 12:27:43,985 [Worker-61] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-05-24 12:27:43,985 [Worker-61] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2020-05-24 12:27:43,986 [Worker-61] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-05-24 12:27:43,987 [Worker-61] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\kapil.jhawar\Documents\OnlineAssignment\FlipkartAmazon\src\test\resources
+2020-05-24 12:28:06,830 [Worker-63] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update started
+2020-05-24 12:28:10,873 [Worker-63] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: Automation:FlipkartAmazon:0.0.1-SNAPSHOT @ C:\Users\kapil.jhawar\Documents\OnlineAssignment\FlipkartAmazon\pom.xml.
+2020-05-24 12:28:12,056 [Worker-63] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /FlipkartAmazon/src/main/java
+2020-05-24 12:28:12,057 [Worker-63] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /FlipkartAmazon/src/main/resources
+2020-05-24 12:28:12,057 [Worker-63] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /FlipkartAmazon/src/test/java
+2020-05-24 12:28:12,246 [Worker-63] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update completed: 5 sec
+2020-05-24 12:28:12,640 [Worker-53] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-05-24 12:28:12,640 [Worker-53] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2020-05-24 12:28:12,649 [Worker-53] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-05-24 12:28:12,649 [Worker-53] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\kapil.jhawar\Documents\OnlineAssignment\FlipkartAmazon\src\test\resources
+2020-05-24 12:28:15,988 [Worker-58] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update started
+2020-05-24 12:28:16,339 [Worker-58] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: Automation:FlipkartAmazon:0.0.1-SNAPSHOT @ C:\Users\kapil.jhawar\Documents\OnlineAssignment\FlipkartAmazon\pom.xml.
+2020-05-24 12:28:16,628 [Worker-58] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /FlipkartAmazon/src/main/java
+2020-05-24 12:28:16,629 [Worker-58] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /FlipkartAmazon/src/main/resources
+2020-05-24 12:28:16,629 [Worker-58] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /FlipkartAmazon/src/test/java
+2020-05-24 12:28:16,796 [Worker-58] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update completed: 0 sec
+2020-05-24 12:28:17,117 [Worker-60] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-05-24 12:28:17,117 [Worker-60] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2020-05-24 12:28:17,127 [Worker-60] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-05-24 12:28:17,127 [Worker-60] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\kapil.jhawar\Documents\OnlineAssignment\FlipkartAmazon\src\test\resources
+2020-05-24 12:28:22,644 [Worker-65] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-05-24 12:28:22,644 [Worker-65] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2020-05-24 12:28:22,647 [Worker-65] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-05-24 12:28:22,647 [Worker-65] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\kapil.jhawar\Documents\OnlineAssignment\FlipkartAmazon\src\test\resources
+2020-05-24 12:35:11,319 [Worker-68] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-05-24 12:35:11,320 [Worker-68] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-05-24 12:35:11,321 [Worker-68] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-05-24 12:35:11,322 [Worker-68] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\kapil.jhawar\Documents\OnlineAssignment\FlipkartAmazon\src\test\resources
+2020-05-24 12:35:22,463 [Worker-68] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-05-24 12:35:22,463 [Worker-68] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-05-24 12:35:22,464 [Worker-68] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-05-24 12:35:22,464 [Worker-68] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\kapil.jhawar\Documents\OnlineAssignment\FlipkartAmazon\src\test\resources
+2020-05-24 12:35:32,432 [Worker-67] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-05-24 12:35:32,432 [Worker-67] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-05-24 12:35:32,433 [Worker-67] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-05-24 12:35:32,433 [Worker-67] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\kapil.jhawar\Documents\OnlineAssignment\FlipkartAmazon\src\test\resources
+2020-05-24 12:37:11,139 [Worker-68] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-05-24 12:37:11,139 [Worker-68] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-05-24 12:37:11,140 [Worker-68] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-05-24 12:37:11,140 [Worker-68] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\kapil.jhawar\Documents\OnlineAssignment\FlipkartAmazon\src\test\resources
+2020-05-24 12:38:53,714 [Worker-72] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-05-24 12:38:53,715 [Worker-72] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-05-24 12:38:53,715 [Worker-72] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-05-24 12:38:53,716 [Worker-72] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\kapil.jhawar\Documents\OnlineAssignment\FlipkartAmazon\src\test\resources
+2020-05-24 12:39:20,709 [Worker-72] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-05-24 12:39:20,709 [Worker-72] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-05-24 12:39:20,710 [Worker-72] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-05-24 12:39:20,711 [Worker-72] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\kapil.jhawar\Documents\OnlineAssignment\FlipkartAmazon\src\test\resources
+2020-05-24 12:41:54,120 [Worker-69] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-05-24 12:41:54,121 [Worker-69] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-05-24 12:41:54,121 [Worker-69] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-05-24 12:41:54,122 [Worker-69] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\kapil.jhawar\Documents\OnlineAssignment\FlipkartAmazon\src\test\resources
+2020-05-24 12:44:30,213 [Worker-76] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-05-24 12:44:30,213 [Worker-76] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-05-24 12:44:30,214 [Worker-76] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-05-24 12:44:30,214 [Worker-76] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\kapil.jhawar\Documents\OnlineAssignment\FlipkartAmazon\src\test\resources
+2020-05-24 12:47:15,018 [Worker-76] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-05-24 12:47:15,018 [Worker-76] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-05-24 12:47:15,019 [Worker-76] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-05-24 12:47:15,019 [Worker-76] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\kapil.jhawar\Documents\OnlineAssignment\FlipkartAmazon\src\test\resources
+2020-05-24 12:47:30,307 [Worker-73] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-05-24 12:47:30,307 [Worker-73] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-05-24 12:47:30,308 [Worker-73] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-05-24 12:47:30,308 [Worker-73] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\kapil.jhawar\Documents\OnlineAssignment\FlipkartAmazon\src\test\resources
+2020-05-24 12:47:40,093 [Worker-73] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-05-24 12:47:40,094 [Worker-73] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-05-24 12:47:40,094 [Worker-73] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-05-24 12:47:40,094 [Worker-73] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\kapil.jhawar\Documents\OnlineAssignment\FlipkartAmazon\src\test\resources
+2020-05-24 12:49:06,795 [Worker-77] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-05-24 12:49:06,795 [Worker-77] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-05-24 12:49:06,796 [Worker-77] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-05-24 12:49:06,797 [Worker-77] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\kapil.jhawar\Documents\OnlineAssignment\FlipkartAmazon\src\test\resources
+2020-05-24 12:49:43,197 [Worker-76] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-05-24 12:49:43,198 [Worker-76] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-05-24 12:49:43,198 [Worker-76] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-05-24 12:49:43,199 [Worker-76] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\kapil.jhawar\Documents\OnlineAssignment\FlipkartAmazon\src\test\resources
+2020-05-24 12:50:50,490 [Worker-77] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-05-24 12:50:50,491 [Worker-77] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2020-05-24 12:50:50,493 [Worker-77] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-05-24 12:50:50,493 [Worker-77] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\kapil.jhawar\Documents\OnlineAssignment\FlipkartAmazon\src\test\resources
+2020-05-24 12:51:05,901 [Worker-79] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-05-24 12:51:05,901 [Worker-79] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-05-24 12:51:05,902 [Worker-79] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-05-24 12:51:05,902 [Worker-79] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\kapil.jhawar\Documents\OnlineAssignment\FlipkartAmazon\src\test\resources
+2020-05-24 12:51:08,733 [Worker-73] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-05-24 12:51:08,734 [Worker-73] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-05-24 12:51:08,734 [Worker-73] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-05-24 12:51:08,734 [Worker-73] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\kapil.jhawar\Documents\OnlineAssignment\FlipkartAmazon\src\test\resources
+2020-05-24 12:52:52,875 [Worker-77] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-05-24 12:52:52,876 [Worker-77] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-05-24 12:52:52,876 [Worker-77] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-05-24 12:52:52,876 [Worker-77] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\kapil.jhawar\Documents\OnlineAssignment\FlipkartAmazon\src\test\resources
+2020-05-24 12:54:30,592 [Worker-77] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-05-24 12:54:30,592 [Worker-77] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-05-24 12:54:30,593 [Worker-77] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-05-24 12:54:30,593 [Worker-77] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\kapil.jhawar\Documents\OnlineAssignment\FlipkartAmazon\src\test\resources
+2020-05-24 12:55:06,090 [Worker-77] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-05-24 12:55:06,090 [Worker-77] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-05-24 12:55:06,091 [Worker-77] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-05-24 12:55:06,091 [Worker-77] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\kapil.jhawar\Documents\OnlineAssignment\FlipkartAmazon\src\test\resources
+2020-05-24 12:56:25,695 [Worker-73] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-05-24 12:56:25,695 [Worker-73] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-05-24 12:56:25,696 [Worker-73] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-05-24 12:56:25,696 [Worker-73] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\kapil.jhawar\Documents\OnlineAssignment\FlipkartAmazon\src\test\resources
+2020-05-24 13:01:12,565 [Worker-82] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-05-24 13:01:12,566 [Worker-82] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-05-24 13:01:12,566 [Worker-82] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-05-24 13:01:12,567 [Worker-82] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\kapil.jhawar\Documents\OnlineAssignment\FlipkartAmazon\src\test\resources
+2020-05-24 13:01:48,879 [Worker-79] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-05-24 13:01:48,880 [Worker-79] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2020-05-24 13:01:48,885 [Worker-79] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-05-24 13:01:48,885 [Worker-79] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\kapil.jhawar\Documents\OnlineAssignment\FlipkartAmazon\src\test\resources
+2020-05-24 13:01:50,130 [Worker-81] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-05-24 13:01:50,130 [Worker-81] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2020-05-24 13:01:50,134 [Worker-81] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-05-24 13:01:50,134 [Worker-81] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\kapil.jhawar\Documents\OnlineAssignment\FlipkartAmazon\src\test\resources
+2020-05-24 13:05:06,190 [Worker-86] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-05-24 13:05:06,190 [Worker-86] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-05-24 13:05:06,191 [Worker-86] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-05-24 13:05:06,192 [Worker-86] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\kapil.jhawar\Documents\OnlineAssignment\FlipkartAmazon\src\test\resources
+2020-05-24 13:07:42,440 [Worker-83] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-05-24 13:07:42,441 [Worker-83] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-05-24 13:07:42,442 [Worker-83] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-05-24 13:07:42,442 [Worker-83] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\kapil.jhawar\Documents\OnlineAssignment\FlipkartAmazon\src\test\resources
+2020-05-24 13:09:08,867 [Worker-79] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-05-24 13:09:08,867 [Worker-79] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-05-24 13:09:08,868 [Worker-79] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-05-24 13:09:08,868 [Worker-79] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\kapil.jhawar\Documents\OnlineAssignment\FlipkartAmazon\src\test\resources
+2020-05-24 13:09:45,604 [Worker-87] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-05-24 13:09:45,605 [Worker-87] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-05-24 13:09:45,605 [Worker-87] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-05-24 13:09:45,605 [Worker-87] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\kapil.jhawar\Documents\OnlineAssignment\FlipkartAmazon\src\test\resources
+2020-05-24 13:10:19,017 [Worker-83] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-05-24 13:10:19,018 [Worker-83] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-05-24 13:10:19,018 [Worker-83] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-05-24 13:10:19,019 [Worker-83] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\kapil.jhawar\Documents\OnlineAssignment\FlipkartAmazon\src\test\resources
+2020-05-24 13:10:30,029 [Worker-83] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-05-24 13:10:30,029 [Worker-83] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-05-24 13:10:30,030 [Worker-83] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-05-24 13:10:30,030 [Worker-83] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\kapil.jhawar\Documents\OnlineAssignment\FlipkartAmazon\src\test\resources
+2020-05-24 13:10:31,159 [Worker-83] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-05-24 13:10:31,159 [Worker-83] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-05-24 13:10:31,160 [Worker-83] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-05-24 13:10:31,160 [Worker-83] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\kapil.jhawar\Documents\OnlineAssignment\FlipkartAmazon\src\test\resources
+2020-05-24 13:17:14,357 [Worker-91] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-05-24 13:17:14,357 [Worker-91] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2020-05-24 13:17:14,358 [Worker-91] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-05-24 13:17:14,358 [Worker-91] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\kapil.jhawar\Documents\OnlineAssignment\FlipkartAmazon\src\test\resources
+2020-05-24 13:19:25,912 [Worker-91] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-05-24 13:19:25,912 [Worker-91] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2020-05-24 13:19:25,913 [Worker-91] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-05-24 13:19:25,913 [Worker-91] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\kapil.jhawar\Documents\OnlineAssignment\FlipkartAmazon\src\test\resources
+2020-05-24 13:19:35,296 [Worker-89] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-05-24 13:19:35,296 [Worker-89] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-05-24 13:19:35,297 [Worker-89] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-05-24 13:19:35,297 [Worker-89] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\kapil.jhawar\Documents\OnlineAssignment\FlipkartAmazon\src\test\resources
+2020-05-24 13:24:05,457 [Worker-92] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-05-24 13:24:05,457 [Worker-92] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2020-05-24 13:24:05,458 [Worker-92] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-05-24 13:24:05,458 [Worker-92] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\kapil.jhawar\Documents\OnlineAssignment\FlipkartAmazon\src\test\resources
+2020-05-24 13:24:56,157 [Worker-92] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-05-24 13:24:56,157 [Worker-92] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-05-24 13:24:56,158 [Worker-92] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-05-24 13:24:56,158 [Worker-92] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\kapil.jhawar\Documents\OnlineAssignment\FlipkartAmazon\src\test\resources
+2020-05-24 14:06:33,310 [Worker-97] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-05-24 14:06:33,311 [Worker-97] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-05-24 14:06:33,311 [Worker-97] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-05-24 14:06:33,311 [Worker-97] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\kapil.jhawar\Documents\OnlineAssignment\FlipkartAmazon\src\test\resources
+2020-05-24 14:06:52,869 [Worker-99] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-05-24 14:06:52,869 [Worker-99] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-05-24 14:06:52,870 [Worker-99] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-05-24 14:06:52,870 [Worker-99] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\kapil.jhawar\Documents\OnlineAssignment\FlipkartAmazon\src\test\resources
+2020-05-24 14:17:39,156 [Worker-107] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-05-24 14:17:39,156 [Worker-107] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-05-24 14:17:39,157 [Worker-107] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-05-24 14:17:39,158 [Worker-107] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\kapil.jhawar\Documents\OnlineAssignment\FlipkartAmazon\src\test\resources
+2020-05-24 14:17:43,921 [Worker-99] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-05-24 14:17:43,921 [Worker-99] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-05-24 14:17:43,921 [Worker-99] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-05-24 14:17:43,922 [Worker-99] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\kapil.jhawar\Documents\OnlineAssignment\FlipkartAmazon\src\test\resources
+2020-05-24 14:18:08,371 [Worker-106] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-05-24 14:18:08,372 [Worker-106] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2020-05-24 14:18:08,373 [Worker-106] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-05-24 14:18:08,373 [Worker-106] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\kapil.jhawar\Documents\OnlineAssignment\FlipkartAmazon\src\test\resources
+2020-05-24 14:19:15,100 [Worker-99] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-05-24 14:19:15,100 [Worker-99] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-05-24 14:19:15,101 [Worker-99] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-05-24 14:19:15,101 [Worker-99] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\kapil.jhawar\Documents\OnlineAssignment\FlipkartAmazon\src\test\resources
+2020-05-24 14:19:17,387 [Worker-107] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-05-24 14:19:17,387 [Worker-107] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-05-24 14:19:17,388 [Worker-107] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-05-24 14:19:17,388 [Worker-107] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\kapil.jhawar\Documents\OnlineAssignment\FlipkartAmazon\src\test\resources
+2020-05-24 14:19:36,569 [Worker-107] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-05-24 14:19:36,569 [Worker-107] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-05-24 14:19:36,570 [Worker-107] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-05-24 14:19:36,570 [Worker-107] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\kapil.jhawar\Documents\OnlineAssignment\FlipkartAmazon\src\test\resources
+2020-05-24 14:20:16,228 [Worker-108] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-05-24 14:20:16,229 [Worker-108] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-05-24 14:20:16,230 [Worker-108] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-05-24 14:20:16,230 [Worker-108] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\kapil.jhawar\Documents\OnlineAssignment\FlipkartAmazon\src\test\resources
+2020-05-24 14:20:26,283 [Worker-106] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-05-24 14:20:26,283 [Worker-106] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-05-24 14:20:26,284 [Worker-106] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-05-24 14:20:26,284 [Worker-106] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\kapil.jhawar\Documents\OnlineAssignment\FlipkartAmazon\src\test\resources
+2020-05-24 14:22:53,040 [Worker-107] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-05-24 14:22:53,040 [Worker-107] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-05-24 14:22:53,041 [Worker-107] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-05-24 14:22:53,041 [Worker-107] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\kapil.jhawar\Documents\OnlineAssignment\FlipkartAmazon\src\test\resources
+2020-05-24 14:23:07,679 [Worker-106] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-05-24 14:23:07,679 [Worker-106] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-05-24 14:23:07,680 [Worker-106] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-05-24 14:23:07,681 [Worker-106] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\kapil.jhawar\Documents\OnlineAssignment\FlipkartAmazon\src\test\resources
+2020-05-24 14:26:31,018 [Worker-111] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-05-24 14:26:31,019 [Worker-111] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-05-24 14:26:31,019 [Worker-111] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-05-24 14:26:31,019 [Worker-111] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\kapil.jhawar\Documents\OnlineAssignment\FlipkartAmazon\src\test\resources
+2020-05-24 14:27:31,864 [Worker-111] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-05-24 14:27:31,864 [Worker-111] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-05-24 14:27:31,865 [Worker-111] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-05-24 14:27:31,865 [Worker-111] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\kapil.jhawar\Documents\OnlineAssignment\FlipkartAmazon\src\test\resources
+2020-05-24 14:28:09,132 [Worker-106] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-05-24 14:28:09,132 [Worker-106] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-05-24 14:28:09,133 [Worker-106] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-05-24 14:28:09,133 [Worker-106] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\kapil.jhawar\Documents\OnlineAssignment\FlipkartAmazon\src\test\resources
+2020-05-24 14:29:04,583 [Worker-112] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-05-24 14:29:04,583 [Worker-112] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-05-24 14:29:04,584 [Worker-112] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-05-24 14:29:04,584 [Worker-112] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\kapil.jhawar\Documents\OnlineAssignment\FlipkartAmazon\src\test\resources
+2020-05-24 14:29:13,441 [Worker-111] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-05-24 14:29:13,441 [Worker-111] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-05-24 14:29:13,442 [Worker-111] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-05-24 14:29:13,442 [Worker-111] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\kapil.jhawar\Documents\OnlineAssignment\FlipkartAmazon\src\test\resources
+2020-05-24 14:29:24,423 [Worker-112] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update started
+2020-05-24 14:29:25,531 [Worker-112] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: Automation:FlipkartAmazon:0.0.1-SNAPSHOT @ C:\Users\kapil.jhawar\Documents\OnlineAssignment\FlipkartAmazon\pom.xml.
+2020-05-24 14:29:26,393 [Worker-112] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /FlipkartAmazon/src/main/java
+2020-05-24 14:29:26,394 [Worker-112] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /FlipkartAmazon/src/main/resources
+2020-05-24 14:29:26,394 [Worker-112] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /FlipkartAmazon/src/test/java
+2020-05-24 14:29:26,538 [Worker-112] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update completed: 2 sec
+2020-05-24 14:29:26,957 [Worker-106] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-05-24 14:29:26,958 [Worker-106] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2020-05-24 14:29:26,966 [Worker-106] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-05-24 14:29:26,966 [Worker-106] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\kapil.jhawar\Documents\OnlineAssignment\FlipkartAmazon\src\test\resources
+2020-05-24 14:29:33,236 [Worker-113] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update started
+2020-05-24 14:29:33,546 [Worker-113] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: Automation:FlipkartAmazon:0.0.1-SNAPSHOT @ C:\Users\kapil.jhawar\Documents\OnlineAssignment\FlipkartAmazon\pom.xml.
+2020-05-24 14:29:33,807 [Worker-113] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /FlipkartAmazon/src/main/java
+2020-05-24 14:29:33,808 [Worker-113] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /FlipkartAmazon/src/main/resources
+2020-05-24 14:29:33,808 [Worker-113] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /FlipkartAmazon/src/test/java
+2020-05-24 14:29:33,928 [Worker-113] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update completed: 0 sec
+2020-05-24 14:29:34,230 [Worker-112] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-05-24 14:29:34,230 [Worker-112] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2020-05-24 14:29:34,238 [Worker-112] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-05-24 14:29:34,238 [Worker-112] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\kapil.jhawar\Documents\OnlineAssignment\FlipkartAmazon\src\test\resources
+2020-05-24 14:29:39,410 [Worker-110] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-05-24 14:29:39,410 [Worker-110] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2020-05-24 14:29:39,412 [Worker-110] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-05-24 14:29:39,412 [Worker-110] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\kapil.jhawar\Documents\OnlineAssignment\FlipkartAmazon\src\test\resources
+2020-05-24 14:30:16,297 [Worker-110] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-05-24 14:30:16,299 [Worker-110] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-05-24 14:30:16,299 [Worker-110] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-05-24 14:30:16,299 [Worker-110] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\kapil.jhawar\Documents\OnlineAssignment\FlipkartAmazon\src\test\resources
+2020-05-24 14:30:40,525 [Worker-112] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-05-24 14:30:40,526 [Worker-112] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2020-05-24 14:30:40,527 [Worker-112] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-05-24 14:30:40,527 [Worker-112] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\kapil.jhawar\Documents\OnlineAssignment\FlipkartAmazon\src\test\resources
+2020-05-24 14:30:52,303 [Worker-110] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-05-24 14:30:52,303 [Worker-110] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-05-24 14:30:52,304 [Worker-110] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-05-24 14:30:52,304 [Worker-110] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\kapil.jhawar\Documents\OnlineAssignment\FlipkartAmazon\src\test\resources
+2020-05-24 14:31:05,126 [Worker-112] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-05-24 14:31:05,126 [Worker-112] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-05-24 14:31:05,127 [Worker-112] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-05-24 14:31:05,127 [Worker-112] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\kapil.jhawar\Documents\OnlineAssignment\FlipkartAmazon\src\test\resources
+2020-05-24 14:31:12,365 [Worker-112] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-05-24 14:31:12,365 [Worker-112] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-05-24 14:31:12,365 [Worker-112] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-05-24 14:31:12,365 [Worker-112] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\kapil.jhawar\Documents\OnlineAssignment\FlipkartAmazon\src\test\resources
+2020-05-24 14:31:17,983 [Worker-111] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-05-24 14:31:17,983 [Worker-111] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-05-24 14:31:17,985 [Worker-111] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-05-24 14:31:17,986 [Worker-111] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\kapil.jhawar\Documents\OnlineAssignment\FlipkartAmazon\src\test\resources
+2020-05-24 14:31:21,517 [Worker-113] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-05-24 14:31:21,517 [Worker-113] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-05-24 14:31:21,518 [Worker-113] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-05-24 14:31:21,518 [Worker-113] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\kapil.jhawar\Documents\OnlineAssignment\FlipkartAmazon\src\test\resources
+2020-05-24 14:33:39,690 [Worker-114] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-05-24 14:33:39,691 [Worker-114] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-05-24 14:33:39,692 [Worker-114] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-05-24 14:33:39,692 [Worker-114] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\kapil.jhawar\Documents\OnlineAssignment\FlipkartAmazon\src\test\resources
+2020-05-24 14:34:13,922 [Worker-115] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-05-24 14:34:13,922 [Worker-115] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-05-24 14:34:13,923 [Worker-115] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-05-24 14:34:13,924 [Worker-115] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\kapil.jhawar\Documents\OnlineAssignment\FlipkartAmazon\src\test\resources
+2020-05-24 14:34:19,782 [Worker-115] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-05-24 14:34:19,782 [Worker-115] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-05-24 14:34:19,782 [Worker-115] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-05-24 14:34:19,783 [Worker-115] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\kapil.jhawar\Documents\OnlineAssignment\FlipkartAmazon\src\test\resources
+2020-05-24 14:35:06,345 [Worker-112] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-05-24 14:35:06,345 [Worker-112] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-05-24 14:35:06,346 [Worker-112] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-05-24 14:35:06,347 [Worker-112] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\kapil.jhawar\Documents\OnlineAssignment\FlipkartAmazon\src\test\resources
+2020-05-24 14:38:40,848 [Worker-116] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-05-24 14:38:40,848 [Worker-116] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-05-24 14:38:40,849 [Worker-116] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-05-24 14:38:40,849 [Worker-116] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\kapil.jhawar\Documents\OnlineAssignment\FlipkartAmazon\src\test\resources
+2020-05-24 14:40:14,025 [Worker-112] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-05-24 14:40:14,025 [Worker-112] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-05-24 14:40:14,026 [Worker-112] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-05-24 14:40:14,026 [Worker-112] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\kapil.jhawar\Documents\OnlineAssignment\FlipkartAmazon\src\test\resources
+2020-05-24 14:40:17,580 [Worker-119] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-05-24 14:40:17,582 [Worker-119] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-05-24 14:40:17,582 [Worker-119] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-05-24 14:40:17,582 [Worker-119] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\kapil.jhawar\Documents\OnlineAssignment\FlipkartAmazon\src\test\resources
+2020-05-24 14:40:30,516 [Worker-119] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-05-24 14:40:30,516 [Worker-119] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-05-24 14:40:30,517 [Worker-119] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-05-24 14:40:30,517 [Worker-119] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\kapil.jhawar\Documents\OnlineAssignment\FlipkartAmazon\src\test\resources
+2020-05-24 14:40:38,582 [Worker-119] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-05-24 14:40:38,583 [Worker-119] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-05-24 14:40:38,583 [Worker-119] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-05-24 14:40:38,583 [Worker-119] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\kapil.jhawar\Documents\OnlineAssignment\FlipkartAmazon\src\test\resources
+2020-05-24 14:41:02,644 [Worker-117] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-05-24 14:41:02,644 [Worker-117] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-05-24 14:41:02,645 [Worker-117] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-05-24 14:41:02,645 [Worker-117] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\kapil.jhawar\Documents\OnlineAssignment\FlipkartAmazon\src\test\resources
+2020-05-24 14:41:44,445 [Worker-112] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-05-24 14:41:44,445 [Worker-112] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-05-24 14:41:44,446 [Worker-112] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-05-24 14:41:44,447 [Worker-112] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\kapil.jhawar\Documents\OnlineAssignment\FlipkartAmazon\src\test\resources
+2020-05-24 14:42:40,327 [Worker-118] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-05-24 14:42:40,327 [Worker-118] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-05-24 14:42:40,328 [Worker-118] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-05-24 14:42:40,329 [Worker-118] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\kapil.jhawar\Documents\OnlineAssignment\FlipkartAmazon\src\test\resources
+2020-05-24 14:42:52,490 [Worker-116] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update started
+2020-05-24 14:42:53,739 [Worker-116] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: Automation:FlipkartAmazon:0.0.1-SNAPSHOT @ C:\Users\kapil.jhawar\Documents\OnlineAssignment\FlipkartAmazon\pom.xml.
+2020-05-24 14:42:54,601 [Worker-116] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /FlipkartAmazon/src/main/java
+2020-05-24 14:42:54,601 [Worker-116] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /FlipkartAmazon/src/main/resources
+2020-05-24 14:42:54,602 [Worker-116] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /FlipkartAmazon/src/test/java
+2020-05-24 14:42:54,759 [Worker-116] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update completed: 2 sec
+2020-05-24 14:42:55,044 [Worker-118] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-05-24 14:42:55,044 [Worker-118] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2020-05-24 14:42:55,052 [Worker-118] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-05-24 14:42:55,052 [Worker-118] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\kapil.jhawar\Documents\OnlineAssignment\FlipkartAmazon\src\test\resources
+2020-05-24 14:42:57,491 [Worker-106] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-05-24 14:42:57,491 [Worker-106] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2020-05-24 14:42:57,493 [Worker-106] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-05-24 14:42:57,493 [Worker-106] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\kapil.jhawar\Documents\OnlineAssignment\FlipkartAmazon\src\test\resources
+2020-05-24 14:43:26,438 [Worker-111] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-05-24 14:43:26,439 [Worker-111] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-05-24 14:43:26,440 [Worker-111] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-05-24 14:43:26,440 [Worker-111] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\kapil.jhawar\Documents\OnlineAssignment\FlipkartAmazon\src\test\resources
+2020-05-24 14:43:31,926 [Worker-118] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-05-24 14:43:31,928 [Worker-118] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2020-05-24 14:43:31,928 [Worker-118] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-05-24 14:43:31,928 [Worker-118] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\kapil.jhawar\Documents\OnlineAssignment\FlipkartAmazon\src\test\resources
+2020-05-24 14:43:36,088 [Worker-111] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-05-24 14:43:36,088 [Worker-111] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2020-05-24 14:43:36,089 [Worker-111] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-05-24 14:43:36,089 [Worker-111] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\kapil.jhawar\Documents\OnlineAssignment\FlipkartAmazon\src\test\resources
+2020-05-24 14:43:43,859 [Worker-106] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-05-24 14:43:43,859 [Worker-106] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-05-24 14:43:43,860 [Worker-106] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-05-24 14:43:43,860 [Worker-106] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\kapil.jhawar\Documents\OnlineAssignment\FlipkartAmazon\src\test\resources
+2020-05-24 14:44:24,901 [Worker-119] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-05-24 14:44:24,902 [Worker-119] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-05-24 14:44:24,902 [Worker-119] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-05-24 14:44:24,902 [Worker-119] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\kapil.jhawar\Documents\OnlineAssignment\FlipkartAmazon\src\test\resources
+2020-05-24 14:45:17,068 [Worker-117] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-05-24 14:45:17,068 [Worker-117] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-05-24 14:45:17,069 [Worker-117] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-05-24 14:45:17,069 [Worker-117] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\kapil.jhawar\Documents\OnlineAssignment\FlipkartAmazon\src\test\resources
+2020-05-24 14:45:53,000 [Worker-106] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-05-24 14:45:53,000 [Worker-106] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-05-24 14:45:53,001 [Worker-106] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-05-24 14:45:53,001 [Worker-106] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\kapil.jhawar\Documents\OnlineAssignment\FlipkartAmazon\src\test\resources
+2020-05-24 14:46:31,542 [Worker-118] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-05-24 14:46:31,542 [Worker-118] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-05-24 14:46:31,543 [Worker-118] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-05-24 14:46:31,543 [Worker-118] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\kapil.jhawar\Documents\OnlineAssignment\FlipkartAmazon\src\test\resources
+2020-05-24 14:46:33,471 [Worker-106] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-05-24 14:46:33,471 [Worker-106] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-05-24 14:46:33,471 [Worker-106] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-05-24 14:46:33,471 [Worker-106] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\kapil.jhawar\Documents\OnlineAssignment\FlipkartAmazon\src\test\resources
+2020-05-24 14:47:30,191 [Worker-112] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-05-24 14:47:30,191 [Worker-112] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-05-24 14:47:30,191 [Worker-112] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-05-24 14:47:30,191 [Worker-112] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\kapil.jhawar\Documents\OnlineAssignment\FlipkartAmazon\src\test\resources
+2020-05-24 14:47:37,238 [Worker-119] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-05-24 14:47:37,238 [Worker-119] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-05-24 14:47:37,239 [Worker-119] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-05-24 14:47:37,239 [Worker-119] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\kapil.jhawar\Documents\OnlineAssignment\FlipkartAmazon\src\test\resources
+2020-05-24 14:47:43,198 [Worker-111] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-05-24 14:47:43,198 [Worker-111] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2020-05-24 14:47:43,199 [Worker-111] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-05-24 14:47:43,199 [Worker-111] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\kapil.jhawar\Documents\OnlineAssignment\FlipkartAmazon\src\test\resources
+2020-05-24 14:48:17,309 [Worker-117] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-05-24 14:48:17,309 [Worker-117] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-05-24 14:48:17,310 [Worker-117] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-05-24 14:48:17,310 [Worker-117] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\kapil.jhawar\Documents\OnlineAssignment\FlipkartAmazon\src\test\resources
+2020-05-24 14:49:24,929 [Worker-112] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-05-24 14:49:24,929 [Worker-112] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-05-24 14:49:24,930 [Worker-112] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-05-24 14:49:24,930 [Worker-112] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\kapil.jhawar\Documents\OnlineAssignment\FlipkartAmazon\src\test\resources
+2020-05-24 14:50:18,296 [Worker-119] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-05-24 14:50:18,296 [Worker-119] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-05-24 14:50:18,297 [Worker-119] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-05-24 14:50:18,297 [Worker-119] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\kapil.jhawar\Documents\OnlineAssignment\FlipkartAmazon\src\test\resources
+2020-05-24 14:52:10,902 [Worker-119] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-05-24 14:52:10,902 [Worker-119] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-05-24 14:52:10,902 [Worker-119] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-05-24 14:52:10,902 [Worker-119] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\kapil.jhawar\Documents\OnlineAssignment\FlipkartAmazon\src\test\resources
+2020-05-24 14:58:23,432 [Worker-121] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-05-24 14:58:23,432 [Worker-121] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-05-24 14:58:23,433 [Worker-121] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-05-24 14:58:23,433 [Worker-121] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\kapil.jhawar\Documents\OnlineAssignment\FlipkartAmazon\src\test\resources
+2020-05-24 14:58:27,422 [Worker-116] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-05-24 14:58:27,423 [Worker-116] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-05-24 14:58:27,423 [Worker-116] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-05-24 14:58:27,423 [Worker-116] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\kapil.jhawar\Documents\OnlineAssignment\FlipkartAmazon\src\test\resources
+2020-05-24 14:58:42,035 [Worker-117] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-05-24 14:58:42,036 [Worker-117] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-05-24 14:58:42,036 [Worker-117] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-05-24 14:58:42,036 [Worker-117] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\kapil.jhawar\Documents\OnlineAssignment\FlipkartAmazon\src\test\resources
+2020-05-24 14:59:39,333 [Worker-121] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-05-24 14:59:39,333 [Worker-121] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-05-24 14:59:39,333 [Worker-121] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-05-24 14:59:39,333 [Worker-121] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\kapil.jhawar\Documents\OnlineAssignment\FlipkartAmazon\src\test\resources
+2020-05-24 15:00:15,620 [Worker-119] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-05-24 15:00:15,620 [Worker-119] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-05-24 15:00:15,621 [Worker-119] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-05-24 15:00:15,621 [Worker-119] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\kapil.jhawar\Documents\OnlineAssignment\FlipkartAmazon\src\test\resources
+2020-05-24 15:00:19,747 [Worker-116] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-05-24 15:00:19,747 [Worker-116] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-05-24 15:00:19,748 [Worker-116] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-05-24 15:00:19,748 [Worker-116] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\kapil.jhawar\Documents\OnlineAssignment\FlipkartAmazon\src\test\resources
+2020-05-24 15:00:54,926 [Worker-118] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-05-24 15:00:54,927 [Worker-118] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-05-24 15:00:54,927 [Worker-118] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-05-24 15:00:54,927 [Worker-118] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\kapil.jhawar\Documents\OnlineAssignment\FlipkartAmazon\src\test\resources
+2020-05-24 15:01:01,628 [Worker-118] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-05-24 15:01:01,628 [Worker-118] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-05-24 15:01:01,629 [Worker-118] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-05-24 15:01:01,629 [Worker-118] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\kapil.jhawar\Documents\OnlineAssignment\FlipkartAmazon\src\test\resources
+2020-05-24 15:03:36,104 [Worker-119] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-05-24 15:03:36,104 [Worker-119] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-05-24 15:03:36,105 [Worker-119] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-05-24 15:03:36,105 [Worker-119] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\kapil.jhawar\Documents\OnlineAssignment\FlipkartAmazon\src\test\resources
+2020-05-24 15:05:11,045 [Worker-118] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-05-24 15:05:11,045 [Worker-118] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-05-24 15:05:11,045 [Worker-118] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-05-24 15:05:11,045 [Worker-118] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\kapil.jhawar\Documents\OnlineAssignment\FlipkartAmazon\src\test\resources
+2020-05-24 15:10:02,037 [Worker-112] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-05-24 15:10:02,037 [Worker-112] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-05-24 15:10:02,038 [Worker-112] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-05-24 15:10:02,038 [Worker-112] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\kapil.jhawar\Documents\OnlineAssignment\FlipkartAmazon\src\test\resources
+2020-05-24 15:11:03,286 [Worker-117] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-05-24 15:11:03,286 [Worker-117] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-05-24 15:11:03,286 [Worker-117] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-05-24 15:11:03,286 [Worker-117] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\kapil.jhawar\Documents\OnlineAssignment\FlipkartAmazon\src\test\resources
+2020-05-24 15:11:13,634 [Worker-117] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-05-24 15:11:13,635 [Worker-117] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-05-24 15:11:13,636 [Worker-117] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-05-24 15:11:13,636 [Worker-117] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\kapil.jhawar\Documents\OnlineAssignment\FlipkartAmazon\src\test\resources
+2020-05-24 15:12:17,422 [Worker-126] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-05-24 15:12:17,423 [Worker-126] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-05-24 15:12:17,423 [Worker-126] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-05-24 15:12:17,423 [Worker-126] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\kapil.jhawar\Documents\OnlineAssignment\FlipkartAmazon\src\test\resources
+2020-05-24 15:14:38,360 [Worker-127] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-05-24 15:14:38,361 [Worker-127] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2020-05-24 15:14:38,361 [Worker-127] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-05-24 15:14:38,361 [Worker-127] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\kapil.jhawar\Documents\OnlineAssignment\FlipkartAmazon\src\test\resources
+2020-05-24 15:16:21,149 [Worker-127] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-05-24 15:16:21,149 [Worker-127] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-05-24 15:16:21,150 [Worker-127] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-05-24 15:16:21,150 [Worker-127] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\kapil.jhawar\Documents\OnlineAssignment\FlipkartAmazon\src\test\resources
+2020-05-24 15:21:18,652 [Worker-128] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-05-24 15:21:18,652 [Worker-128] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-05-24 15:21:18,653 [Worker-128] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-05-24 15:21:18,653 [Worker-128] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\kapil.jhawar\Documents\OnlineAssignment\FlipkartAmazon\src\test\resources
+2020-05-24 15:22:16,287 [Worker-127] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-05-24 15:22:16,287 [Worker-127] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-05-24 15:22:16,287 [Worker-127] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-05-24 15:22:16,287 [Worker-127] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\kapil.jhawar\Documents\OnlineAssignment\FlipkartAmazon\src\test\resources
