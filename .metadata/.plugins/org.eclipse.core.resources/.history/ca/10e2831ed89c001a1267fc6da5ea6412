@@ -1,0 +1,15 @@
+package com.qa.testCases;
+
+import com.qa.base.TestBase;
+import com.qa.pages.FlipkartHomePage;
+
+public class FlipkartHomePageTest extends TestBase{
+	
+	FlipkartHomePage flipkartHomePage;
+	FlipkartSearchPageTest flipkartSearchPageTest;
+	
+	public HomePageTest() {
+		super();
+	}
+
+}

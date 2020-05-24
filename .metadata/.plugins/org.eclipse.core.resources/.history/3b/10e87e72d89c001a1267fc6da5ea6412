@@ -1,0 +1,31 @@
+package com.qa.testCases;
+
+import org.testng.annotations.BeforeSuite;
+import org.testng.annotations.Test;
+
+import com.qa.base.TestBase;
+import com.qa.pages.FlipkartHomePage;
+
+public class FlipkartHomePageTest extends TestBase{
+	
+	FlipkartHomePage flipkartHomePage;
+	FlipkartSearchPageTest flipkartSearchPageTest;
+	
+	public FlipkartHomePageTest() {
+		super();
+	}
+	
+	@BeforeSuite
+	public void setup() {
+		flipkartHomePage = new FlipkartHomePage();
+		flipkartSearchPageTest = new FlipkartSearchPageTest();
+	}
+	
+	@Test(Priority=1)
+	public void mobileSearchItemTest() throws InterruptedException {
+		// Thread.sleep(1000);
+		Thread.sleep(1000);
+		homePage.clickSearchItem();
+		homePage.mobileSearchItem(prop.getProperty("mobileSearchItem"));
+	}
+}

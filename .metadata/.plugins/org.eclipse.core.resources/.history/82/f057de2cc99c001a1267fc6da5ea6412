@@ -1,0 +1,13 @@
+flipkartUrl=https://flipkart.com/
+amazonUrl=https://www.amazon.in/
+username= 
+password=
+accountName=kApIl
+browserName=chrome
+mobileSearchItem=iPhone XR (64GB) - Yellow
+applicancesSearchItem=washing machines
+bookSearchItem=harafish (english, paperback, mahfouz naguib)
+checkoutTitleAssert=Flipkart.com: Secure Payment: Login > Select Shipping Address > Review Order > Place Order
+loginPageTitleAsssert=Online Shopping Site for Mobiles, Electronics, Furniture, Grocery, Lifestyle, Books & More. Best Offers!
+phoneBuyPageTitleAssert=Mi Redmi K20 Pro ( 128 GB Storage, 6 GB RAM ) Online at Best Price On Flipkart.com
+phoneSearchResultTitleAssert=Redmi K20 Pro In Mobiles - Buy Products Online at Best Price in India - All Categories | Flipkart.com

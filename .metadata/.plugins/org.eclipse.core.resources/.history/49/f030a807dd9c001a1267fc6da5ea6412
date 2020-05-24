@@ -1,0 +1,27 @@
+package com.qa.testCases;
+
+import org.testng.Assert;
+import org.testng.annotations.BeforeSuite;
+
+import com.qa.base.TestBase;
+import com.qa.pages.FlipkartSearchPage;
+
+public class FlipkartSearchPageTest extends TestBase{
+	
+	FlipkartSearchPage 	flipkartSearchPage;
+	
+	public FlipkartSearchPageTest() {
+		super();
+	}
+	
+	@BeforeSuite
+	public void setup() {
+		flipkartSearchPage = new FlipkartSearchPage();
+	}
+	
+	@Test(priority = 1)
+	public void phoneSearchTest() throws InterruptedException {
+		Assert.assertTrue(flipkartSearchPage.verifyCorrectSearch(prop.getProperty("mobileSearchItem")),
+				"Incorrect phone Search results");
+
+}

@@ -1,0 +1,15 @@
+package com.qa.testCases;
+
+import com.qa.base.TestBase;
+import com.qa.pages.AmazonSearchPage;
+import com.qa.pages.FlipkartHomePage;
+
+public class AmazonSearchPageTest extends TestBase{
+	AmazonSearchPage amazonSearchPage;
+	FlipkartHomePage flipkartHomePage;
+	
+	public AmazonSearchPageTest() {
+		super();
+	}
+
+}

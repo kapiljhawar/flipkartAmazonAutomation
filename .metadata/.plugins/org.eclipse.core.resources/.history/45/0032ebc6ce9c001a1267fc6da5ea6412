@@ -1,0 +1,22 @@
+package com.qa.testCases;
+
+import org.testng.annotations.BeforeSuite;
+
+import com.qa.base.TestBase;
+import com.qa.pages.AmazonSearchPage;
+import com.qa.pages.FlipkartHomePage;
+
+public class AmazonSearchPageTest extends TestBase{
+	AmazonSearchPage amazonSearchPage;
+	FlipkartHomePage flipkartHomePage;
+	
+	public AmazonSearchPageTest() {
+		super();
+	}
+	
+	@BeforeSuite
+	public void setup() {
+		amazonSearchPage = new AmazonSearchPage();
+	}
+
+}

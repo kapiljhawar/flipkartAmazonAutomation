@@ -1,0 +1,21 @@
+package com.qa.testCases;
+
+import org.testng.annotations.BeforeSuite;
+
+import com.qa.pages.FlipkartSearchPage;
+
+public class FlipkartSearchPageTest {
+	
+	FlipkartSearchPage 	flipkartSearchPage;
+	
+	public FlipkartSearchPageTest() {
+		super();
+	}
+	
+	@BeforeSuite
+	public void setup() {
+		flipkartSearchPage = new FlipkartSearchPage();
+	}
+	
+
+}

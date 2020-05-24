@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Automation]">
+  <test name="Flipkart Phone Search Page(failed)">
+    <classes>
+      <class name="com.qa.testCases.AmazonSearchPageTest">
+        <methods>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- com.qa.testCases.AmazonSearchPageTest -->
+      <class name="com.qa.testCases.FlipkartSearchPageTest">
+        <methods>
+          <include name="setup"/>
+          <include name="closeBrowser"/>
+          <include name="phonePrice"/>
+        </methods>
+      </class> <!-- com.qa.testCases.FlipkartSearchPageTest -->
+      <class name="com.qa.testCases.AmazonHomePageTest">
+        <methods>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- com.qa.testCases.AmazonHomePageTest -->
+    </classes>
+  </test> <!-- Flipkart Phone Search Page(failed) -->
+</suite> <!-- Failed suite [Automation] -->

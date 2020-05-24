@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="1" ignored="0" total="8" passed="7">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Automation" duration-ms="32806" started-at="2020-05-23T12:33:14Z" finished-at="2020-05-23T12:33:47Z">
+    <groups>
+    </groups>
+    <test name="Amazon Home" duration-ms="1782" started-at="2020-05-23T12:33:14Z" finished-at="2020-05-23T12:33:16Z">
+      <class name="com.qa.testCases.AmazonHomePageTest">
+        <test-method status="PASS" signature="mobileSearchItemTest()[pri:1, instance:com.qa.testCases.AmazonHomePageTest@29ee9faa]" name="mobileSearchItemTest" duration-ms="1764" started-at="2020-05-23T18:03:14Z" finished-at="2020-05-23T18:03:16Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- mobileSearchItemTest -->
+      </class> <!-- com.qa.testCases.AmazonHomePageTest -->
+    </test> <!-- Amazon Home -->
+    <test name="Amazon Phone Search Page" duration-ms="2088" started-at="2020-05-23T12:33:16Z" finished-at="2020-05-23T12:33:18Z">
+      <class name="com.qa.testCases.AmazonSearchPageTest">
+        <test-method status="PASS" signature="amazonPhoneSearch()[pri:1, instance:com.qa.testCases.AmazonSearchPageTest@59f99ea]" name="amazonPhoneSearch" duration-ms="2054" started-at="2020-05-23T18:03:16Z" finished-at="2020-05-23T18:03:18Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- amazonPhoneSearch -->
+        <test-method status="PASS" signature="amazonPrice()[pri:2, instance:com.qa.testCases.AmazonSearchPageTest@59f99ea]" name="amazonPrice" duration-ms="30" started-at="2020-05-23T18:03:18Z" finished-at="2020-05-23T18:03:18Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- amazonPrice -->
+      </class> <!-- com.qa.testCases.AmazonSearchPageTest -->
+    </test> <!-- Amazon Phone Search Page -->
+    <test name="Flipkart Home" duration-ms="16698" started-at="2020-05-23T12:33:18Z" finished-at="2020-05-23T12:33:35Z">
+      <class name="com.qa.testCases.FlipkartHomePageTest">
+        <test-method status="PASS" signature="setup()[pri:1, instance:com.qa.testCases.FlipkartHomePageTest@42d80b78]" name="setup" duration-ms="14370" started-at="2020-05-23T18:03:18Z" finished-at="2020-05-23T18:03:33Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="mobileSearchItemTest()[pri:2, instance:com.qa.testCases.FlipkartHomePageTest@42d80b78]" name="mobileSearchItemTest" duration-ms="244" started-at="2020-05-23T18:03:33Z" finished-at="2020-05-23T18:03:33Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- mobileSearchItemTest -->
+        <test-method status="PASS" signature="searchClickTest()[pri:3, instance:com.qa.testCases.FlipkartHomePageTest@42d80b78]" name="searchClickTest" duration-ms="2080" started-at="2020-05-23T18:03:33Z" finished-at="2020-05-23T18:03:35Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- searchClickTest -->
+      </class> <!-- com.qa.testCases.FlipkartHomePageTest -->
+    </test> <!-- Flipkart Home -->
+    <test name="Flipkart Phone Search Page" duration-ms="12202" started-at="2020-05-23T12:33:35Z" finished-at="2020-05-23T12:33:47Z">
+      <class name="com.qa.testCases.AmazonHomePageTest">
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.qa.testCases.AmazonHomePageTest@29ee9faa]" name="setup" is-config="true" duration-ms="9624" started-at="2020-05-23T18:03:05Z" finished-at="2020-05-23T18:03:14Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.qa.testCases.AmazonSearchPageTest@59f99ea]" name="setup" is-config="true" duration-ms="1" started-at="2020-05-23T18:03:14Z" finished-at="2020-05-23T18:03:14Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.qa.testCases.FlipkartSearchPageTest@7cd62f43]" name="setup" is-config="true" duration-ms="1" started-at="2020-05-23T18:03:14Z" finished-at="2020-05-23T18:03:14Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+      </class> <!-- com.qa.testCases.AmazonHomePageTest -->
+      <class name="com.qa.testCases.FlipkartSearchPageTest">
+        <test-method status="PASS" signature="phoneSearchTest()[pri:1, instance:com.qa.testCases.FlipkartSearchPageTest@7cd62f43]" name="phoneSearchTest" duration-ms="2034" started-at="2020-05-23T18:03:35Z" finished-at="2020-05-23T18:03:37Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- phoneSearchTest -->
+        <test-method status="FAIL" signature="phonePrice()[pri:2, instance:com.qa.testCases.FlipkartSearchPageTest@7cd62f43]" name="phonePrice" duration-ms="10162" started-at="2020-05-23T18:03:37Z" finished-at="2020-05-23T18:03:47Z">
+          <exception class="org.openqa.selenium.TimeoutException">
+            <message>
+              <![CDATA[Expected condition failed: waiting for visibility of element located by By.xpath: //img[@class="_3VW0yj"] (tried for 10 second(s) with 500 milliseconds interval)]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.TimeoutException: Expected condition failed: waiting for visibility of element located by By.xpath: //img[@class="_3VW0yj"] (tried for 10 second(s) with 500 milliseconds interval)
+	at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:95)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:272)
+	at com.qa.pages.FlipkartSearchPage.getPrice(FlipkartSearchPage.java:29)
+	at com.qa.testCases.FlipkartSearchPageTest.phonePrice(FlipkartSearchPageTest.java:35)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:104)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:645)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:851)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1177)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:129)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:112)
+	at org.testng.TestRunner.privateRun(TestRunner.java:756)
+	at org.testng.TestRunner.run(TestRunner.java:610)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:387)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:382)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:340)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:289)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1293)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1218)
+	at org.testng.TestNG.runSuites(TestNG.java:1133)
+	at org.testng.TestNG.run(TestNG.java:1104)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:132)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:236)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:81)
+Caused by: org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//img[@class="_3VW0yj"]"}
+  (Session info: chrome=81.0.4044.138)
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.14.0', revision: 'aacccce0', time: '2018-08-02T20:19:58.91Z'
+System info: host: 'IITC-WS-DT06', ip: '192.168.1.202', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_121'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 81.0.4044.138, chrome: {chromedriverVersion: 81.0.4044.69 (6813546031a4b..., userDataDir: C:\Users\KAPIL~1.JHA\AppDat...}, goog:chromeOptions: {debuggerAddress: localhost:54134}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: d5ead02261b3b3eb3971a7c1ce48db87
+*** Element info: {Using=xpath, value=//img[@class="_3VW0yj"]}
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
+	at java.lang.reflect.Constructor.newInstance(Unknown Source)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:185)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:120)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:164)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:586)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:356)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:458)
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:348)
+	at org.openqa.selenium.support.ui.ExpectedConditions$7.apply(ExpectedConditions.java:205)
+	at org.openqa.selenium.support.ui.ExpectedConditions$7.apply(ExpectedConditions.java:201)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:249)
+	... 27 more
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.TimeoutException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- phonePrice -->
+        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:com.qa.testCases.FlipkartSearchPageTest@7cd62f43]" name="closeBrowser" is-config="true" duration-ms="760" started-at="2020-05-23T18:03:47Z" finished-at="2020-05-23T18:03:48Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- com.qa.testCases.FlipkartSearchPageTest -->
+    </test> <!-- Flipkart Phone Search Page -->
+  </suite> <!-- Automation -->
+</testng-results>

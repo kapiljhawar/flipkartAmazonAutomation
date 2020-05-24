@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+
+<suite name="Automation">
+	<test name="Amazon Home">
+		<classes>
+			<class name="com.qa.testCases.AmazonHomePageTest"></class>
+		</classes>
+	</test>
+
+	<test name="Amazon Phone Search Page">
+		<classes>
+			<class name="com.qa.testCases.AmazonSearchPageTest"></class>
+		</classes>
+	</test>
+	<test name="Flipkart Home">
+		<classes>
+			<class name="com.qa.testCases.FlipkartHomePageTest"></class>
+		</classes>
+	</test>
+	<test name="Flipkart Phone Search Page">
+		<classes>
+			<class name="com.qa.testCases.FlipkartSearchPageTest"></class>
+		</classes>
+	</test>
+</suite>
